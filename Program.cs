@@ -49,7 +49,6 @@ foreach (var p in productos)
     Console.WriteLine($"Insertado: {p.Nombre} - {p.Precio} - {p.Stock} (filas afectadas: {filas})");
 }
 
-// 5. Consultar y mostrar con SqliteDataReader
 using var consultar = connection.CreateCommand();
 consultar.CommandText = "SELECT id, nombre, precio, stock FROM productos";
 
