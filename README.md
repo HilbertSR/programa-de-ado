@@ -13,7 +13,11 @@
    ```
    cd "ruta\de\la\carpeta\programa-ado"
    ```
-3. Ejecuta:
+3. Ejecuta el siguiente comando para agregar el paquete de SQLite:
+   ```
+   dotnet add package Microsoft.Data.Sqlite --version 8.0.26
+   ``` 
+4. Ejecuta:
    ```
    dotnet run
    ```
